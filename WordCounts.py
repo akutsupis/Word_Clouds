@@ -1,0 +1,18 @@
+ds = open('What_Is_data_science.txt', 'r')
+
+punctuation = ['!', ',', '.']
+
+words = ds.read().strip().split(' ')
+
+cache = {}
+for word in words:
+    for i in word:
+        if i in punctuation:
+            word = word.replace(i,'')
+    word = word.lower()
+    print(word)
+    if word in cache[0]:
+        cache[0] += 1
+    else:
+        cache.keys(word)
+        cache.items(1)

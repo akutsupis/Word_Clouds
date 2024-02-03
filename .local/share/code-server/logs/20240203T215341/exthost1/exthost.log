@@ -1,0 +1,14 @@
+[2024-02-03 21:53:50.519] [exthost] [info] Extension host with pid 92 started
+[2024-02-03 21:53:50.534] [exthost] [info] Lock '/home/labsuser/.local/share/code-server/User/workspaceStorage/cc126d3/vscode.lock': Lock acquired.
+[2024-02-03 21:53:50.704] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2024-02-03 21:53:50.708] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2024-02-03 21:53:50.742] [exthost] [info] ExtensionService#_doActivateExtension genuitecllc.codetogether, startup: true, activationEvent: '*'
+[2024-02-03 21:53:50.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2024-02-03 21:53:50.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2024-02-03 21:53:51.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2024-02-03 21:53:51.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2024-02-03 21:53:51.572] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2024-02-03 21:53:51.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2024-02-03 21:53:51.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2024-02-03 21:53:51.618] [exthost] [info] Eager extensions activated
+[2024-02-03 21:54:04.648] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'

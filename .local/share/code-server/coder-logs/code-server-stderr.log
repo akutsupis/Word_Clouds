@@ -1,0 +1,21 @@
+[22:07:43] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/local/lib/code-server-4.6.1/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/local/lib/code-server-4.6.1/lib/vscode/out/bootstrap-amd.js
+- /usr/local/lib/code-server-4.6.1/out/node/util.js
+- /usr/local/lib/code-server-4.6.1/out/node/cli.js
+- /usr/local/lib/code-server-4.6.1/out/node/entry.js
+[19:36:09] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/local/lib/code-server-4.6.1/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/local/lib/code-server-4.6.1/lib/vscode/out/bootstrap-amd.js
+- /usr/local/lib/code-server-4.6.1/out/node/util.js
+- /usr/local/lib/code-server-4.6.1/out/node/cli.js
+- /usr/local/lib/code-server-4.6.1/out/node/entry.js
+[21:53:47] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/local/lib/code-server-4.6.1/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/local/lib/code-server-4.6.1/lib/vscode/out/bootstrap-amd.js
+- /usr/local/lib/code-server-4.6.1/out/node/util.js
+- /usr/local/lib/code-server-4.6.1/out/node/cli.js
+- /usr/local/lib/code-server-4.6.1/out/node/entry.js

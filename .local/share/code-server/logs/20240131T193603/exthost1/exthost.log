@@ -1,0 +1,17 @@
+[2024-01-31 19:36:14.898] [exthost] [info] Extension host with pid 91 started
+[2024-01-31 19:36:14.910] [exthost] [info] Lock '/home/labsuser/.local/share/code-server/User/workspaceStorage/-2893012d/vscode.lock': Lock acquired.
+[2024-01-31 19:36:15.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2024-01-31 19:36:15.400] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2024-01-31 19:36:15.432] [exthost] [info] ExtensionService#_doActivateExtension genuitecllc.codetogether, startup: true, activationEvent: '*'
+[2024-01-31 19:36:15.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2024-01-31 19:36:15.695] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2024-01-31 19:36:15.718] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2024-01-31 19:36:15.939] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2024-01-31 19:36:15.993] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2024-01-31 19:36:16.321] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-31 19:36:16.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-31 19:36:16.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2024-01-31 19:36:16.365] [exthost] [info] Eager extensions activated
+[2024-01-31 20:06:36.229] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2024-01-31 20:06:36.231] [exthost] [info] Lock '/home/labsuser/.local/share/code-server/User/workspaceStorage/-2893012d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2024-01-31 20:06:36.248] [exthost] [info] Extension host with pid 91 exiting with code 0

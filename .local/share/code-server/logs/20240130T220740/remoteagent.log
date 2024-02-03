@@ -1,0 +1,25 @@
+[2024-01-30 22:07:40.356] [remoteagent] [info] 
+
+
+
+
+[2024-01-30 22:07:40.356] [remoteagent] [info] Extension host agent started.
+[2024-01-30 22:07:42.738] [remoteagent] [info] [172.16.0.1][05aa14f2][ManagementConnection] New connection established.
+[2024-01-30 22:07:43.253] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/local/lib/code-server-4.6.1/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/local/lib/code-server-4.6.1/lib/vscode/out/bootstrap-amd.js
+- /usr/local/lib/code-server-4.6.1/out/node/util.js
+- /usr/local/lib/code-server-4.6.1/out/node/cli.js
+- /usr/local/lib/code-server-4.6.1/out/node/entry.js
+[2024-01-30 22:07:44.187] [remoteagent] [info] [172.16.0.1][b36001be][ExtensionHostConnection] New connection established.
+[2024-01-30 22:07:44.192] [remoteagent] [info] [172.16.0.1][b36001be][ExtensionHostConnection] <93> Launched Extension Host Process.
+[2024-01-30 22:08:21.266] [remoteagent] [info] [172.16.0.1][05aa14f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2024-01-30 22:08:21.321] [remoteagent] [info] [172.16.0.1][b36001be][ExtensionHostConnection] <93> Extension Host Process exited with code: 0, signal: null.
+[2024-01-30 22:08:25.592] [remoteagent] [info] [172.16.0.1][f02146bc][ManagementConnection] New connection established.
+[2024-01-30 22:08:26.656] [remoteagent] [info] [172.16.0.1][8a6d34e0][ExtensionHostConnection] New connection established.
+[2024-01-30 22:08:26.662] [remoteagent] [info] [172.16.0.1][8a6d34e0][ExtensionHostConnection] <138> Launched Extension Host Process.
+[2024-01-31 00:40:43.532] [remoteagent] [info] [172.16.0.1][f02146bc][ManagementConnection] The client has reconnected.
+[2024-01-31 00:40:43.547] [remoteagent] [info] [172.16.0.1][8a6d34e0][ExtensionHostConnection] The client has reconnected.
+[2024-01-31 00:44:25.864] [remoteagent] [info] [172.16.0.1][8a6d34e0][ExtensionHostConnection] The client has reconnected.
+[2024-01-31 00:44:26.178] [remoteagent] [info] [172.16.0.1][f02146bc][ManagementConnection] The client has reconnected.
