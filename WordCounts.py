@@ -16,7 +16,12 @@ structure = []
 word_counts = {}
 
 # Colors for the word cloud. More colors can be added if desired.
-colors = ["Blue", "Green", "Red", "Turquoise", "Pink", "Maroon", "Yellow", "Brown", "Purple"]
+colors = ["Blue", "Green", "Red", "Turquoise", "Pink", "Yellow", "Brown", "Purple"]
+
+'''
+The structure of "structure" is a list of dictionaries containing:
+{'Word': "word", 'Count': "count", 'Color', "Color"}
+'''
 
 # For loop to iterate through each word in the document
 for word in words:
@@ -36,7 +41,7 @@ for word in words:
     index = random.randint(0, len(colors) - 1)
     colorassign = colors[index]
 
-    # Creates structure, a list of dictionaries containing a word, its count, and a random color.
+    # Creates structured output:
     structure.append({"Word": word, "Count": word_counts[word], "Color": colorassign})
 
 
