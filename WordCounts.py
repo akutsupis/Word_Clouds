@@ -22,9 +22,9 @@ colors = ["Blue", "Green", "Red", "Turquoise", "Pink", "Yellow", "Brown", "Purpl
 The structure of "structure" is a list of dictionaries containing:
 {'Word': "word", 'Count': "count", 'Color', "Color"}
 '''
-
 # For loop to iterate through each word in the document
-for word in words:
+for index, word in enumerate(words):
+    word_count = index + 1
     # For loop to remove punctuation and standardize case for comparison
     for i in word:
         if i in punctuation:
@@ -47,3 +47,4 @@ for word in words:
 
 # Print structure for viewing.
 print(structure)
+print(f"There are {word_count} total words")
