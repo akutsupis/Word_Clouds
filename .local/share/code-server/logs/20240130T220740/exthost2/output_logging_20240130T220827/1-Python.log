@@ -1,9 +1,0 @@
-Experiment 'pythonRecommendTensorboardExt' is active
-Experiment 'pythonREPLSmartSend' is active
-Experiment 'pythonTerminalEnvVarActivationcf' is active
-Experiment 'pythonTestAdapter' is active
-LSP Notebooks experiment is disabled -- not using Pylance
-LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
-Python interpreter path: /bin/python3.10
-Starting Jedi language server for labsuser.
-> /bin/python3.10 /usr/local/lib/code-server-4.6.1/lib/vscode/extensions/ms-python.python-2022.14.0/pythonFiles/normalizeSelection.py

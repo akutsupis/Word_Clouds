@@ -1,5 +1,0 @@
-{
-    "security.workspace.trust.enabled": false,
-    "codetogether.virtualCursorJoin": "ownVirtualCursor",
-    "codetogether.virtualCursorRemember": true
-}
