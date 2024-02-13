@@ -18,18 +18,19 @@ for i in range(len(lines)):
         line1 = lines[i].lower()
         line2 = lines[j].lower()
 
+        # Count the total words across both lines
+        words_count = len(line1.split()) + len(line2.split())
+
         # If words match, they are added to the set. Ultimately, we take the length of the set.
         shared_words = len(set(line1).intersection(set(line2)))
 
-        # Append result to list of tuples. +1 makes the lines 1-indexed instead of 0-indexed.
-        similarity.append((i + 1, j + 1, shared_words))
+        # We can calculate percent similarity by comparing the identical words to the total word count.
+        percent_similar = round(shared_words / words_count * 100)
 
-print(similarity)
+        # Append result to list of tuples. +1 makes the lines 1-indexed instead of 0-indexed.
+        similarity.append((i + 1, j + 1, shared_words, words_count, percent_similar))
 
 # Next we need to sort the lines based on their similarity.
-'''
-sorted_similarity = sorted(similarity, key=lambda x: x[2], reverse=True)
+
+sorted_similarity = sorted(similarity, key=lambda x: x[-1], reverse=True)
 print(sorted_similarity)
-'''
-
-
